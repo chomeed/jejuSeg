@@ -1,4 +1,10 @@
 # bash jejuSeg/prepare_dataset
+mkdir -p jejuSeg/mmsegmentation/data/train/labels
+mkdir -p jejuSeg/mmsegmentation/data/train/images
+mkdir -p jejuSeg/mmsegmentation/data/train/masks
+mkdir -p jejuSeg/mmsegmentation/data/val/labels
+mkdir -p jejuSeg/mmsegmentation/data/val/images
+mkdir -p jejuSeg/mmsegmentation/data/val/masks
 
 # unzip dataset zip files 
 cd jejuSeg
