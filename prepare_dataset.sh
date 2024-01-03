@@ -2,10 +2,10 @@
 
 # unzip dataset zip files 
 cd jejuSeg
-unzip /dataset/jeju/train/labels/FGT_1024.zip -d mmsegmentation/data/train/labels
-unzip /dataset/jeju/val/labels/FGT_1024.zip -d mmsegmentation/data/val/labels
-unzip /dataset/jeju/train/images/FGT_1024.zip -d mmsegmentation/data/train/images
-unzip /dataset/jeju/val/images/FGT_1024.zip -d mmsegmentation/data/val/images
+unzip /dataset/jeju/aihub_jeju/train/labels/FGT_1024.zip -d mmsegmentation/data/train/labels
+unzip /dataset/jeju/aihub_jeju/val/labels/FGT_1024.zip -d mmsegmentation/data/val/labels
+unzip /dataset/jeju/aihub_jeju/train/images/FGT_1024.zip -d mmsegmentation/data/train/images
+unzip /dataset/jeju/aihub_jeju/val/images/FGT_1024.zip -d mmsegmentation/data/val/images
 
 # geo2coco 
 python geo2coco.py mmsegmentation/data/train/labels/FGT_1024/json mmsegmentation/data/train/train.json
