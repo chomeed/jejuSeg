@@ -1,0 +1,5 @@
+/*.json
+/*.tiff
+aihub_*/
+mmsegmentation/experiments/
+mmsegmentation/experiments
